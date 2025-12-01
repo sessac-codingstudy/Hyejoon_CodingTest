@@ -1,13 +1,14 @@
 """
-파일명: 10825_kor_eng_mat.py
+파일명: ascending_score.py
 작성일: 2025-12-01
-문제 링크: https://www.acmicpc.net/problem/10825
-백준 난이도: silver 4
+문제 링크: https://wooono.tistory.com/505
+백준 난이도: -
 체감 난이도: ⭐⭐
 
-설명: sorted() 함수의 key 매개변수를 활용한 정렬 문제
+설명: 이코테 책 실전문제 <성적이 낮은 순서로 학생 출력하기> 
+     sorted() 함수의 key 매개변수를 활용한 정렬 문제
 """
-n = int(input())
+n = int(input()) 
 array = []
 
 # 공백을 기준으로 튜플 형태로 입력받기
