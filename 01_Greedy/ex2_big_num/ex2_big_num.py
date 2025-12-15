@@ -16,9 +16,10 @@ while True:
         cnt += 1
         if cnt == M:
             break
+    if cnt >= M:
+        break
     total += second
     cnt += 1
-    if cnt == M:
-        break
+    
 
 print(total)
